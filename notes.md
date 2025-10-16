@@ -1,7 +1,7 @@
 ## zsh
 
 ## nvim
- Super + s + / => search in file
+Super + s + / => search in file
 
 ## tmux
 
