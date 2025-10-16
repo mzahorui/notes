@@ -7,6 +7,7 @@ alias -g <name>="<value>"     // expands everyvere, g == global
 ## nvim
 Super + s + /     // search in file
 
+
 ## tmux
 bind n split-window -h "note"     // keybind shorcut run command in a new pane
 
