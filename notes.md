@@ -7,6 +7,12 @@ alias -g <name>="<value>"     // expands everyvere, g == global
 ## nvim
 Super + s + /     // search in file
 
+### substitution
+
+/*PROJECT WIDE SUBSTITUTION*/
+Super + SG (ripgrep) -> <pattern> -> Ctrl-Q (add to quick list)     // adds pattern to quicklist for project wide substitution
+:cfdo %s/old_pattern/new_pattern/gc | update    // The cfdo command runs the substitution on each file in the quickfix list, gc asks for confirmation on each match, and update saves the modified buffers.
+/*END*/
 
 ## tmux
 bind n split-window -h "note"     // keybind shorcut run command in a new pane
