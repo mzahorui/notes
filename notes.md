@@ -15,4 +15,7 @@ bind n split-window -h "zsh -ic note"     // keybind shortcut run command in a n
 
 tmux source-file ~/.tmux.conf     // source reload tmux config
 
+## bear
+bear -- make    // create json for clangd 
+
 ## dif
