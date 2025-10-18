@@ -15,6 +15,18 @@ Super + SG (ripgrep) -> <pattern> -> Ctrl-Q (add to quick list)     // adds patt
 /*END*/
 
 ## tmux
+/*PANE NAVIGATION AND MANIPULATION*/
+{
+    Prefix + { - Move the current pane left or up
+
+    Prefix + } - Move the current pane right or down
+
+    Prefix + Ctrl+o - Rotate all panes clockwise
+
+    Prefix + Alt+o - Rotate all panes counterclockwise
+}
+/*END*/
+
 bind n split-window -h "note"     // keybind shorcut run command in a new pane
 
 bind n split-window -h "zsh -ic note"     // keybind shortcut run command in a new pane and stay in it; The -i flag makes zsh run as an interactive shell (loading .zshrc), and -c note executes your function.
