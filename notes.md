@@ -37,3 +37,6 @@ tmux source-file ~/.tmux.conf     // source reload tmux config
 bear -- make    // create json for clangd 
 
 ## dif
+
+## git
+git restore .       // removes all unsteged changes
