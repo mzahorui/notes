@@ -40,3 +40,6 @@ bear -- make    // create json for clangd
 
 ## git
 git restore .       // removes all unsteged changes
+
+## package management: dnf, rpm, flat etc.
+rpm -ivh package-name.rpm       // i - install; v - verbose; h - hash progress bar
