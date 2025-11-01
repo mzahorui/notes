@@ -44,3 +44,4 @@ git restore .       // removes all unsteged changes
 
 ## package management: dnf, rpm, flat etc.
 rpm -ivh package-name.rpm       // i - install; v - verbose; h - hash progress bar
+dnf list <package_name>         // check if the package exitsts in dnf repo
