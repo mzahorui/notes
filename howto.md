@@ -45,3 +45,15 @@ git restore .       // removes all unsteged changes
 ## package management: dnf, rpm, flat etc.
 rpm -ivh package-name.rpm       // i - install; v - verbose; h - hash progress bar
 dnf list <package_name>         // check if the package exitsts in dnf repo
+
+## valgrind
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose --log-file=valgrind-out.txt ./your_program [arguments]
+    --leak-check=full: Displays each individual memory leak in detail with complete backtraces showing where the leaked memory was allocated.​
+
+    --show-leak-kinds=all: Shows all types of memory leaks including definite, indirect, possible, and reachable leaks. This provides the most comprehensive leak report.​
+
+    --track-origins=yes: Tracks the origins of uninitialized values, which helps identify memory errors more precisely (note: this slows down execution).​
+
+    --verbose: Provides more detailed information about unusual program behavior.​
+
+    --log-file=valgrind-out.txt: Writes the output to a file, which is useful when the output exceeds terminal space.
