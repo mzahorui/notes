@@ -7,7 +7,6 @@ alias -g <name>="<value>"     // expands everyvere, g == global
 ## nvim
 Super + s + /                       // search in file
 Ctrl-f Ctrl-x                       // Triggers default path completion; Ctrl-N/P/Y navigation.
-<leader>gra                         // apply "fix available"
 lua vim.lsp.buf.code_action()       // apply "fix available"
 
 ### substitution
